@@ -5,5 +5,6 @@ public class Main {
     System.out.println("This is new message");
     System.out.println("This is second message");
     System.out.println("This is message in experimental branch");
+    System.out.println("This is second message in experimental branch");
   }
 }
