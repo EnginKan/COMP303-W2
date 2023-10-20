@@ -2,7 +2,7 @@ package ISP;
 
 import java.util.List;
 
-public class BankPayment implements Payment {
+public class BankPayment implements Bank {
 
   @Override
   public void initiatePayments() {

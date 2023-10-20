@@ -3,7 +3,7 @@ package ISP;
 import java.util.List;
 
 public interface Payment {
-  void initiatePayments();
+  //void initiatePayments();
   Object status();
   List<Object> getPayments();
 

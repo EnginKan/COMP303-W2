@@ -12,5 +12,5 @@ public abstract class Account {
    *
    * @param amount
    */
-  protected abstract void withdraw(BigDecimal amount);
+
 }

@@ -8,13 +8,8 @@ public class Calculator {
     if (operation == null) {
       throw new InvalidParameterException("Can not perform operation");
     }
-
-    if (operation instanceof Addition) {
-      Addition addition = (Addition) operation;
-      addition.setResult(addition.getLeft() + addition.getRight());
-    } else if (operation instanceof Substraction) {
-      Substraction subtraction = (Substraction) operation;
-      subtraction.setResult(subtraction.getLeft() - subtraction.getRight());
+     else{
+       operation.perform();
     }
   }
 }

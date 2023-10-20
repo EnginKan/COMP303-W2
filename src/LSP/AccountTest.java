@@ -1,11 +1,12 @@
 package LSP;
+import javax.swing.plaf.ColorUIResource;
 import java.math.BigDecimal;
 public class AccountTest {
 
   public static void main(String[] args) {
 
 
-    Account myFixedTermDepositAccount = new FixedTermDepositAccount();
+    WithdrawableAccount myFixedTermDepositAccount = new CurrentAccount();
 
     myFixedTermDepositAccount.deposit(new BigDecimal(100.0));
 

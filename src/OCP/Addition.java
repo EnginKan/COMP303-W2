@@ -36,4 +36,9 @@ public class Addition implements CalculatorOperation {
   }
 // getters and setters
 
+  @Override
+  public void perform(){
+    this.result= this.left+this.right;
+  }
+
 }

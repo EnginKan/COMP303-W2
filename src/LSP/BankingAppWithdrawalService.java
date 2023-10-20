@@ -3,9 +3,9 @@ package LSP;
 import java.math.BigDecimal;
 
 public class BankingAppWithdrawalService {
-  private Account account;
+  private WithdrawableAccount account;
 
-  public BankingAppWithdrawalService(Account account) {
+  public BankingAppWithdrawalService(WithdrawableAccount account) {
     this.account = account;
   }
 

@@ -35,4 +35,9 @@ public class Substraction implements CalculatorOperation {
   public void setLeft(double left) {
     this.left = left;
   }
+
+  @Override
+  public void perform(){
+    this.result= this.left - this.right;
+  }
 }
